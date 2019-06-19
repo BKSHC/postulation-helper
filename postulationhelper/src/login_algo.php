@@ -3,7 +3,7 @@
 
   if(isset($_SESSION['logined'])){
     if($_SESSION['logined']){
-      header('Location: /');
+      header('Location: /postulationhelper/');
     }
   }
 
@@ -37,7 +37,7 @@
       $_SESSION['pseudo'] = $resultat['pseudo'];
       $_SESSION['logined'] = true;
 
-      header('Location: /');
+      header('Location: /postulationhelper');
     }else
     {
       $erreur = 'Mauvais mot de passe.';

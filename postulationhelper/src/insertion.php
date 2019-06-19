@@ -25,7 +25,7 @@
   }
 
 
-  header('Location: /');
+  header('Location: /postulationhelper/');
 
 
  ?>

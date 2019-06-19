@@ -14,7 +14,7 @@
   $idToDelete = $_POST['idToDelete'];
   $db->exec('DELETE FROM helpertable WHERE ID ='. $idToDelete);
 
-  header('Location: /');
+  header('Location: /postulationhelper/');
 
 
  ?>

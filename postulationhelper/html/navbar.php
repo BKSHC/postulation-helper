@@ -11,7 +11,7 @@
 		  <div class="collapse navbar-collapse" id="navbarColor01">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item active">
-		        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="/postulationhelper/">Home <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">About me</a>
@@ -24,7 +24,7 @@
 						<a class="nav-link" href="#"><i class="fas fa-user"></i>&ensp;<?php echo $_SESSION['pseudo']; ?></a>
 					</li>
 					<li class="nav-item">
-						<form action="/src/disconnect.php" method="post">
+						<form action="/postulationhelper/src/disconnect.php" method="post">
 							<button class="btn btn-danger btn-sm" name="btn_disconnect" value="1"><i class="fas fa-power-off fa-lg"></i></button>
 						</form>
 					</li>

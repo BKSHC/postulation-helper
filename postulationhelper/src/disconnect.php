@@ -4,7 +4,7 @@
 
   if(isset($_POST['btn_disconnect'])){
     session_destroy();
-    header('Location: /');
+    header('Location: /postulationhelper/');
   }
 
 ?>
