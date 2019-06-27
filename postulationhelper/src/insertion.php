@@ -2,14 +2,7 @@
 
   session_start();
 
-  try
-  {
-    $db = new PDO('mysql:host=localhost;dbname=postulationhelper;charset=utf8', 'root','');
-  }
-  catch (Exception $e)
-  {
-    die('Erreur : ' . $e->getMessage());
-  }
+  include "DBconnect.php";
 
   var_dump($_POST);
 
@@ -25,7 +18,7 @@
   }
 
 
-  header('Location: /');
+  header('Location: ../');
 
 
  ?>
